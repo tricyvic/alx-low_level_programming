@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
- *main - checks the last digit by using % 10 , if the last digit is greate tha 5 or not
- *return - 0 (success)
+ * main - checks the last digit by using % 10 , if the last digit is greate tha 5 or not
+ * Return - Always 0 (success)
  */
 
 int main(void)
