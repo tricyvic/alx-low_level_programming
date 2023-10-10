@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - checks the last digit by using % 10 , if the last digit is greate tha 5 or not
+ * main - Entry Point
  * Return - Always 0 (success)
  */
 
