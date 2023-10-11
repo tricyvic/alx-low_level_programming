@@ -3,7 +3,7 @@
 /**
 * print_alphabet_x10 -Make the aphabet,
 *
-* Return: void 
+* Return: void
 */
 
 void print_alphabet_x10(void)
