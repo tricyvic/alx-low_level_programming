@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 /*
-**main - Entry point
+*main - Entry point
 *
-* *Return: 0 (success)   
-*/
-int main()
+*Return: 0 (success)   
+**/
+int main(void)
 {
 char ch;
-for(ch = 'z' ; ch >= 'a' ; ch--)
+for (ch = 'z' ; ch >= 'a' ; ch--)
 {
 putchar(ch);
 }
