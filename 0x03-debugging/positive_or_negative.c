@@ -13,4 +13,5 @@ void positive_or_negative(int i)
 	    printf("0 is zero\n");
 	    else
 	      printf("%d is negative\n", i);
+	return;
 }
