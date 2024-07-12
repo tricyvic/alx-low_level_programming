@@ -1,0 +1,11 @@
+#include "main.h"
+                    	
+/**
+ * _isdigit - checks gigit 0 - 9
+ * @c: check int
+ * Return: If c is a digit return 1 else 0
+ */
+int _isdigit(int c)
+{
+       	return (c >= '0' && c <= '9');
+}
