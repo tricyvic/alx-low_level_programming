@@ -1,26 +1,26 @@
 #include "main.h"
 
 /**
- * _pow -  calculating (base ^ power)
- * @base: exponent base
- * @power: exponent power
+ * _pow - (base ^ power)
+ * @base: exponent's base
+ * @power: exponent's power
  *
- * Return: (base ^ power)
+ * Return: (base ^ power) value
  */
 unsigned long int _pow(unsigned int base, unsigned int power)
 {
 	unsigned long int num;
-	unsigned int a;
+	unsigned int x;
 
 	num = 1;
-	for (a = 1; a <= power; a++)
+	for (x = 1; x <= power; x++)
 		num *= base;
 	return (num);
 }
 
 /**
- * print_binary - prints binary notation
- * @n: print no.
+ * print_binary - prints bin notation no.
+ * @n: no. to print
  *
  * Return: returns void
  */
